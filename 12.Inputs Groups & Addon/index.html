@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Data -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Input Groups & Addon</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon/favicon.png" type="image/x-icon">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="display-1 bg-primary text-center">Input Groups & Addon</h1>
+
+  <div class="container">
+      <!--Form-->
+      <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">@</span>
+          </div>
+        <input class="form-control" type="text" placeholder="Username">
+      </div> <br>
+      <!--Form-->
+      <div class="input-group">
+        <input class="form-control" type="text" placeholder="Email address">
+        <div class="input-group-append">
+          <span class="input-group-text">@something.com</span>
+        </div>
+      </div><br>
+      <!--Form-->
+      <label for="profile-url">Choose profile URL</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">https://something.com/member</span>
+        </div>
+        <input class="form-control" type="text" id="profile-url">
+      </div><br>
+      <!--input addon-->
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">$</span>
+        </div>
+        <input class="form-control" type="text">
+        <div class="input-group-append">
+          <span class="input-group-text">.00</span>
+        </div>
+      </div><br>
+      <!--input addon-->
+      <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+          <span class="input-group-text">@</span>
+        </div>
+        <input class="form-control" type="text" placeholder="User Name">
+      </div><br>
+      <!--input addon-->
+      <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+          <span class="input-group-text">
+            <input type="checkbox">
+          </span>
+        </div>
+        <input class="form-control" type="text">
+      </div><br>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <input type="checkbox" aria-label="Checkbox for following text input">
+          </div>
+        </div>
+        <input type="text" class="form-control" aria-label="Text input with checkbox">
+      </div>
+      
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <input type="radio" aria-label="Radio button for following text input">
+          </div>
+        </div>
+        <input type="text" class="form-control" aria-label="Text input with radio button">
+      </div>
+      <!--Input Radio-->
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">
+              <input type="radio">
+          </span>
+        </div>
+        <div class="input-group-prepend">
+          <span class="input-group-text">$5.00</span>
+        </div>
+        <input class="form-control" type="text">
+    </div><br>
+    <div class="input-group">
+      <input class="form-control" type="text" placeholder="Search For">
+          <span class="input-group-prepend">
+            <button class="btn btn-primary" type="button">Search For</button>
+          </span>
+    </div>
+
+  </div>
+  <!-- JS SCRIPT -->
+  <script src="assets/js/jquery.min.js"></script>  
+  <script src="assets/js/popper.min.js"></script>  
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
+ 

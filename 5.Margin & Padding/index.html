@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Data -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Margin & Padding</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon/favicon.png" type="image/x-icon">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="display-4 text-center my-4">Spacing</h1>
+        <!--mb- margin bottom -->
+        <h3 class="bg-success mb-0">mb- margin bottom</h3>
+        <h3 class="bg-success mb-1">mb- margin bottom</h3>
+        <h3 class="bg-success mb-2">mb- margin bottom</h3>
+        <h3 class="bg-success mb-3">mb- margin bottom</h3>
+        <h3 class="bg-success mb-4">mb- margin bottom</h3>
+        <h3 class="bg-success mb-5">mb- margin bottom</h3>
+        <hr>
+        <!--mt- margin top -->
+        <h3 class="bg-info mt-0">mb- margin bottom</h3>
+        <h3 class="bg-info mt-1">mb- margin bottom</h3>
+        <h3 class="bg-info mt-2">mb- margin bottom</h3>
+        <h3 class="bg-info mt-3">mb- margin bottom</h3>
+        <h3 class="bg-info mt-4">mb- margin bottom</h3>
+        <h3 class="bg-info mt-5">mb- margin bottom</h3>
+        <hr>
+        <!--mr & ml margin right, left-->
+        <p>Lorem <span class="bg-primary mr-5">ipsum</span> dolor sit amet, <span class="ml-5 bg-secondary">consectetur</span> adipisicing elit.</p>
+        <hr>
+        <!--mx margin left & right-->
+        <p>Lorem <span class="mx-5 bg-success">ipsum dolor</span>sit amet.</p><hr>
+        <!--my margin top & bottom-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="bg-primary my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><hr>
+        
+        <!--margin all side - m -->
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <p class="bg-secondary m-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+                <!-- PB PADDING BOTTOM -->
+                <h3 class="bg-warning pb-0">Lorem ipsum.</h3>
+                <h3 class="bg-warning pb-1">Lorem ipsum.</h3>
+                <h3 class="bg-warning pb-2">Lorem ipsum.</h3>
+                <h3 class="bg-warning pb-3">Lorem ipsum.</h3>
+                <h3 class="bg-warning pb-4">Lorem ipsum.</h3>
+                <h3 class="bg-warning pb-5">Lorem ipsum.</h3>
+        
+                <br><br>
+        
+                 <!-- PT PADDING TOP -->
+                <h3 class="bg-warning pt-0">Lorem ipsum.</h3>
+                <h3 class="bg-warning pt-1">Lorem ipsum.</h3>
+                <h3 class="bg-warning pt-2">Lorem ipsum.</h3>
+                <h3 class="bg-warning pt-3">Lorem ipsum.</h3>
+                <h3 class="bg-warning pt-4">Lorem ipsum.</h3>
+                <h3 class="bg-warning pt-5">Lorem ipsum.</h3>
+                <br><br>
+        
+                <!-- PL & PR -->
+                <p><span class="bg-warning pr-5">Lorem ipsum</span> dolor sit amet, <span class="bg-warning pl-5">consectetur </span> elit. Voluptatum, optio.</p>
+        
+                <br><br>
+        
+                <!-- PX PADDING LEFT RIGHT -->
+                <p>Lorem ipsum<span class="bg-warning px-5">dolor sit amet</span>, consectetur elit. Voluptatum, optio.</p>
+        
+                <br><br>
+        
+                <!-- PY  PADDING TOP BOTTOM -->
+                <p class="bg-warning py-5">Lorem ipsum dolor sit amet, consectetur elit. Voluptatum, optio.</p>
+        
+                <br><br>
+        
+                <!-- BLANK - ALL SIDES -->
+                <p class="bg-warning p-5">Lorem ipsum dolor sit amet, consectetur elit. Voluptatum, optio.</p>
+        <!--
+
+        {property}{sides}-{size}
+
+        ###PROPERTY
+        m - for classes that set margin
+        p - for classes that set padding
+
+        ###SIDES
+        t - for classes that set margin-top or padding-top
+        b - for classes that set margin-bottom or padding-bottom
+        l - for classes that set margin-left or padding-left
+        r - for classes that set margin-right or padding-right
+        x - for classes that set both *-left and *-right
+        y - for classes that set both *-top and *-bottom
+        blank - for classes that set a margin or padding on all 4 sides of the element
+
+        ###SIZE
+        0 - for classes that eliminate the margin or padding by setting it to 0
+        1 - (by default) for classes that set the margin or padding to $spacer-x * .25 or $spacer-y * .25
+        2 - (by default) for classes that set the margin or padding to $spacer-x * .5 or $spacer-y * .5
+        3 - (by default) for classes that set the margin or padding to $spacer-x or $spacer-y
+        4 - (by default) for classes that set the margin or padding to $spacer-x * 1.5 or $spacer-y * 1.5
+        5 - (by default) for classes that set the margin or padding to $spacer-x * 3 or $spacer-y * 3
+
+
+        .mt-0 {
+          margin-top: 0 !important;
+        }
+
+        .ml-1 {
+          margin-left: ($spacer-x * .25) !important;
+        }
+
+        .px-2 {
+          padding-left: ($spacer-x * .5) !important;
+          padding-right: ($spacer-x * .5) !important;
+        }
+
+        .p-3 {
+          padding: $spacer-y $spacer-x !important;
+        }
+        -->
+    </div>
+
+  <!-- JS SCRIPT -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

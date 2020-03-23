@@ -1,0 +1,58 @@
+
+/*small devices (Landscape phones)*/
+@media (min-width: 576px) {
+    body {
+        background: red;
+    }
+}
+
+
+/*medium devices (tablets)*/
+
+@media (min-width: 768px) {
+    body {
+        background: green;
+    }
+}
+
+
+/*large devices (desktop)*/
+@media (min-width: 992px) {
+    body {
+        background: blue;
+    }
+}
+
+/*Extra large devices (large desktop)*/
+@media (min-width: 1200px) {
+    body {
+        background: lime;
+    }
+}
+
+/*The given screen size or smaller*/
+
+/*Large device (desktops)*/
+@media (max-width: 1199px) {
+    body {
+        background: black;
+    }
+}
+/*medium devices (tablets)*/
+@media (max-width: 991px) {
+    body {
+        background: orange;
+    }
+}
+/*small devices (landscape phones)*/
+@media (max-width: 767px) {
+    body {
+        background: yellow;
+    }
+}
+/*Extra small devices (potrait phones)*/
+@media (max-width: 575px) {
+    body {
+        background: red;
+    }
+}

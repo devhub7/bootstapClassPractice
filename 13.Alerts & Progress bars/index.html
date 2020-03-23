@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Data -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alerts & Progress bars</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon/favicon.png" type="image/x-icon">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="display-1 bg-primary text-center">Alerts & Progress bars</h1>
+
+  <div class="container">
+  <!--Alerts & Progress Bars-->
+
+    <!--alerts-->
+    <div class="alert alert-success"><strong>Success</strong>Blog post added <a class="alert-link" href="#">Check it Out</a></div>
+   
+    <div class="alert alert-info"><strong>Attention</strong>You have a new message <a class="alert-link" href="#">Check it Out</a></div>
+  
+
+    <div class="alert alert-warning"><strong>Warning</strong>Please check the log files<a class="alert-link" href="#">Check it Out</a></div>
+    
+    <div class="alert alert-danger">
+        <h4>There's a Problem</h4>
+        <strong>Error</strong> Database update failed <a class="alert-link" href="#">Check it out</a>
+    </div>
+    <!--Dismissable-->
+    <div class="alert alert-primary alert-dismissable fade show">
+      <button class="close" type="button" data-dismiss="alert">
+        <span>&times;</span>
+      </button>
+      <strong>Success</strong> Blog post added <a href="#" class="alert-link">Check it Out</a>
+    </div> <br>
+
+    <!--Progress Bar-->
+    <div class="progress">
+      <div style="width: 30%" class="progress-bar">html</div>
+    </div><br>
+    <div class="progress">
+      <div style="width: 25%" class="progress-bar bg-secondary">25%</div>
+    </div><br>
+    <div class="progress">
+      <div style="width: 50%" class="progress-bar bg-warning text-dark">50%</div>
+    </div><br>
+    <div class="progress">
+      <div style="width: 75%" class="progress-bar bg-success">75%</div>
+    </div><br>
+    <div class="progress">
+      <div style="width: 100%" class="progress-bar bg-info">100%</div>
+    </div><br>
+    <div class="progress">
+      <div style="width: 90%" class="progress-bar progress-bar-striped progress-bar-animated bg-info">80%</div>
+    </div><br>
+    <div class="progress">
+      <div style="width: 60%" class="progress-bar progress-bar-striped bg-info">90%</div>
+    </div><br>
+  </div>
+  <!-- JS SCRIPT -->
+  <script src="assets/js/jquery.min.js"></script>  
+  <script src="assets/js/popper.min.js"></script>  
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
+ 

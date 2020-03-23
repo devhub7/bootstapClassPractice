@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Data -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modals</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon/favicon.png" type="image/x-icon">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="display-1 text-center bg-success py-4">Modals</h1>
+    <!--Modals-->
+    <div class="container">
+      <!--Modal Trigger-->
+      <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Launch Modal</button>
+
+      <!--Login Modal Trigger-->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal Title</h5>
+              <button class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolor a nobis quis odit eveniet doloremque? Labore, est, officiis obcaecati velit dolores aperiam suscipit eligendi nulla corporis, quae veritatis. Aperiam et ea aliquid perspiciatis omnis magnam nesciunt facere corrupti neque odio reprehenderit, quisquam nulla possimus pariatur consectetur sunt beatae temporibus!
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div><br><br>
+      <!--Login Modals-->
+      <button class="btn btn-success" data-toggle="modal" data-target="#loginModal">LogIn</button>
+      <div class="modal" id="loginModal">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">User Login</h5>
+              <button class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="User Name">User Name</label>
+                  <input type="text" placeholder="User Name" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="Password">Password</label>
+                  <input type="text" placeholder="Password" class="form-control">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button class="btn btn-warning">LogIn</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- JS SCRIPT -->
+  <script src="assets/js/jquery.min.js"></script>  
+  <script src="assets/js/popper.min.js"></script>  
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
+ 

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Data -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Auto Margin Wrapping Ordering</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon/favicon.png" type="image/x-icon">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .row-h1  {
+      background: #f4f4f4;
+      height: 250px;
+    }
+    .item-h1 {
+      border: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="display-1 text-center bg-success py-4">Auto Margin Wrapping Ordering</h1>
+
+  <div class="container">
+    <!--MR Auto-->
+    <div class="row-h1 d-flex flex-row">
+      <div class="p-4 item-h1 mr-auto">flex item One</div>
+      <div class="p-4 item-h1">flex item Two</div>
+      <div class="p-4 item-h1">flex item Three</div>
+    </div><br><br>
+    <!--ML Auto-->
+    <div class="row-h1 d-flex flex-row">
+      <div class="p-4 item-h1">flex item One</div>
+      <div class="p-4 item-h1">flex item Two</div>
+      <div class="p-4 item-h1  ml-auto">flex item Three</div>
+    </div><br><br>
+    <!--MB Auto-->
+    <div class="row-h1 d-flex flex-column">
+      <div class="p-4 item-h1 mb-auto">flex item One</div>
+      <div class="p-4 item-h1">flex item Two</div>
+      <div class="p-4 item-h1">flex item Three</div>
+    </div><br><br>
+    <!--MT Auto-->
+    <div class="row-h1 d-flex flex-column">
+      <div class="p-4 item-h1">flex item One</div>
+      <div class="p-4 item-h1  mt-auto">flex item Two</div>
+      <div class="p-4 item-h1">flex item Three</div>
+    </div><br><br>
+    <!--NO Wrap-->
+    <div class="row-h1 d-flex flex-nowrap">
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+    </div><br><br>
+    <!--Flex Wrap-->
+    <div class="row-h1 d-flex flex-wrap">
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+      <div class="p-4 item-h1">flex item</div>
+    </div><br><br>
+    <!--Ordering-->
+    <div class="row-h1 d-flex">
+      <div class="p-4 item-h1 order-1 order-sm-2">flex item 1</div>
+      <div class="p-4 item-h1 order-3 order-sm-1">flex item 2</div>
+      <div class="p-4 item-h1 order-2 order-sm-3">flex item 3</div>
+    </div><br><br>
+  </div>
+  <!-- JS SCRIPT -->
+  <script src="assets/js/jquery.min.js"></script>  
+  <script src="assets/js/popper.min.js"></script>  
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
+ 

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Data -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Grid System</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon/favicon.png" type="image/x-icon">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="display-1 text-center bg-success">Grid System</h1>
+
+  <div class="container">
+    <!--Grid System-->
+    
+    <!--Auto Layout Columns-->
+    <div class="row">
+      <div class="col">
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptatem, dignissimos similique, officia saepe voluptates aperiam quae eius nostrum nesciunt blanditiis asperiores natus, earum a consectetur magnam mollitia officiis unde? </p>
+      </div>
+      <div class="col">
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptatem, dignissimos similique, officia saepe voluptates aperiam quae eius nostrum nesciunt blanditiis asperiores natus, earum a consectetur magnam mollitia officiis unde? </p>
+      </div>
+      <div class="col">
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptatem, dignissimos similique, officia saepe voluptates aperiam quae eius nostrum nesciunt blanditiis asperiores natus, earum a consectetur magnam mollitia officiis unde? </p>
+      </div>
+    </div>
+    <br>
+      <!--Responsive Classes-->
+      <div class="row">
+        <div class="col-12 col-sm-3 col-md-4 col-lg-6 col-xl-3">
+          <h3>Lorem, ipsum dolor.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptatem, dignissimos similique, officia saepe voluptates aperiam quae eius nostrum nesciunt blanditiis asperiores natus, earum a consectetur magnam mollitia officiis unde? </p>
+        </div>
+        <div class="col-12 col-sm-3 col-md-4 col-lg-4 col-xl-6">
+          <h3>Lorem, ipsum dolor.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptatem, dignissimos similique, officia saepe voluptates aperiam quae eius nostrum nesciunt blanditiis asperiores natus, earum a consectetur magnam mollitia officiis unde? </p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-3">
+          <h3>Lorem, ipsum dolor.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptatem, dignissimos similique, officia saepe voluptates aperiam quae eius nostrum nesciunt blanditiis asperiores natus, earum a consectetur magnam mollitia officiis unde? </p>
+        </div>
+      </div>
+      <br>
+      <!--Nesting Grids-->
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h3>Name</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, mollitia?</p>
+              <div class="row">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <h3>Name</h3>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, mollitia?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <h3>Name</h3>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, mollitia?</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Offsetting Columns-->
+      <div class="row">
+        <div class="col-3">
+          <h3>Moshiur</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi molestias vitae est quaerat porro atque asperiores itaque odio modi ipsam ipsum cum voluptas enim beatae obcaecati tempora officiis, rerum aut!</p>
+        </div>
+        <div class="col-3 offset-6">
+          <h3>Moshiur</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi molestias vitae est quaerat porro atque asperiores itaque odio modi ipsam ipsum cum voluptas enim beatae obcaecati tempora officiis, rerum aut!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3 offset-md-3 ">
+          <h3>Moshiur</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi molestias vitae est quaerat porro atque asperiores itaque odio modi ipsam ipsum cum voluptas enim beatae obcaecati tempora officiis, rerum aut!</p>
+        </div>
+        <div class="col-3 offset-3 offset-sm-6 offset-md-3">
+          <h3>Moshiur</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi molestias vitae est quaerat porro atque asperiores itaque odio modi ipsam ipsum cum voluptas enim beatae obcaecati tempora officiis, rerum aut!</p>
+        </div>
+      </div>
+      <!--Re Ordering-->
+      <div class="row">
+        <div class="col order-last">
+          <h3>First Column</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aperiam hic quod neque illo cum?</p>
+        </div>
+        <div class="col order-fast">
+          <h3>Second Column</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aperiam hic quod neque illo cum?</p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col order-2">
+          <h3>First Column</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aperiam hic quod neque illo cum?</p>
+        </div>
+        <div class="col order-1">
+          <h3>Second Column</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aperiam hic quod neque illo cum?</p>
+        </div>
+        <div class="col order-3">
+          <h3>Third Column</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aperiam hic quod neque illo cum?</p>
+        </div>
+      </div>
+
+
+  </div>
+  <!-- JS SCRIPT -->
+  <script src="assets/js/jquery.min.js"></script>  
+  <script src="assets/js/popper.min.js"></script>  
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
+ 
